@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - PetAmor 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interno.css">
+</head>
+<body>
+    <header>
+        <h1>PetAmor 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programacao.html">Programação</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobreNos.html">Sobre</a></li>
+                <li><a href="inscricao.html" class="ativo">Inscrições</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="introTitulo">Inscrição para Voluntariado</h2>
+        <p class="introTexto">Preencha o formulário abaixo para participar como voluntário na Feira PetAmor 2025.</p>
+
+        <form>
+            
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="14" max="100" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone / WhatsApp:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Experiência</legend>
+
+                <label for="experiencia_animais">Com animais:</label>
+                <textarea id="experiencia_animais" name="experiencia_animais" rows="2"></textarea>
+
+                <label for="experiencia_eventos">Com eventos:</label>
+                <textarea id="experiencia_eventos" name="experiencia_eventos" rows="2"></textarea>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Disponibilidade</legend>
+
+                <label for="disponibilidade">Dias e horários disponíveis:</label>
+                <textarea id="disponibilidade" name="disponibilidade" rows="2"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Áreas de Interesse</legend>
+
+                <label for="area_interesse">Selecione a área:</label>
+                <select id="area_interesse" name="area_interesse" required>
+                    <option value="">Selecione</option>
+                    <option value="cuidados_animais">Cuidados com animais</option>
+                    <option value="atendimento">Atendimento ao público</option>
+                    <option value="organizacao">Organização e logística</option>
+                    <option value="divulgacao">Divulgação e redes sociais</option>
+                </select>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Motivação</legend>
+                <label for="motivacao">Por que quer ser voluntário na feira?</label>
+                <textarea id="motivacao" name="motivacao" rows="3" required></textarea>
+            </fieldset>
+
+            
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>E-mail de contato: <a href="mailto:organizacao@petamor2025.org" class="emailContato">organizacao@petamor2025.org</a></p>
+        <p>© 2025 PetAmor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
