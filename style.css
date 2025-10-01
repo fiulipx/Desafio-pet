@@ -22,24 +22,23 @@ header {
     align-items: center;
 }
 
-/* Título principal */
-.evento-titulo {
+
+.eventoTitulo {
     margin: 0 0 10px 0; 
     font-size: 5em;
     text-align: left;   
     width: 100%;
 }
 
-/* Subtítulo logo abaixo do h1 */
-.evento-subtitulo {
+.eventoSubtitulo {
     margin: 0 0 5px 0;  
     font-size: 1.5em;
     text-align: left;    
     width: 100%;
 }
 
-/* Local + data */
-.evento-detalhes {
+
+.eventoDetalhes {
     margin: 0 0 5px 0;  
     font-size: 1.2em;
     text-align: left;    
@@ -149,7 +148,7 @@ ul#carrossel li:nth-child(3) p {
     width: 80%;
 }
 
-/* Imagens */
+
 ul#carrossel a img {
     width: 100%;
     height: 100%;
